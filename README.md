@@ -2,7 +2,7 @@
 This repository provides code/scripts for secondary data analyses as reported in the following manuscript: Constantinides, C., Caramaschi, D., Zammit, S., Freeman, T. P., &amp; Walton, E. (2024). Exploring associations between psychotic experiences and structural brain age: a population-based study in late adolescence [WORKING PAPER]
 
 ### Step 1. Sample selection and relevant variables
-A desicription of the ALSPAC variables (and recoding) used for the current analyses can be found in the relevant spreadsheet: 'Variables_Info_ALSPAC_PE_CC_09092024.xlsx'. The R code used to extract the SCZ-RbG subsample (and relevant variables) from the wider ALSPAC dataset will be added soon.
+A desicription of the ALSPAC variables (and recoding) used for the current analyses can be found in the relevant spreadsheet: 'Variables_Info_ALSPAC_PE_CC_09092024.xlsx'. The R code used to extract the ALSPAC-PE imaging subsample (and relevant variables) from the wider ALSPAC dataset will be added soon.
 
 ### Step 2. Brain age estimation
 
@@ -12,4 +12,4 @@ b. For guidance on brain age prediction using the ENIGMA model (supplementary an
 
 ### Step 3. Statistical analyses
 
-The R code used for statistical analyses (incl. sample discriptives and data visualisation) can be found in the relevant script: 'ALSPAC_PE_BA_Stats_CC_09092023'. Scripts for producing correlations between brain age and FreeSurfer measure (feature imprtortance) will be added soon. 
+The R code used for statistical analyses (incl. sample discriptives and data visualisation) can be found in the relevant script: '3_ALSPAC_PE_BA_Stats_CC_09092024.R'. Scripts for producing correlations between brain age and FreeSurfer measure (feature imprtortance) will be added soon. 
