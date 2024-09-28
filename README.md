@@ -4,7 +4,7 @@ This repository provides code/scripts for secondary data analyses as reported in
 
 Constantinides, C., Caramaschi, D., Zammit, S., Freeman, T. P., &amp; Walton, E. (2024). Exploring associations between psychotic experiences and structural brain age: a population-based study in late adolescence [WORKING PAPER]
 
-Here we used data from the ALSPAC - Psychotic Experiences (PE) imaging study as described previously (see data note by Sharp et al., 2020). 
+Here we used data from the ALSPAC-Psychotic Experiences (PE) imaging study as described previously (see data note by Sharp et al., 2020). 
 
 ### Step 1. Sample selection (including variables of interest)
 
