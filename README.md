@@ -7,7 +7,7 @@ The following R script was used to extract the ALSPAC-PE imaging subsample and v
 
 '1_Extract_ALSPAC_PE_Imaging_Dataset_20240928'
 
-A desicription of the ALSPAC variables used for the current analyses can be found in the following Excel spreadsheet: 'Variables_Info_ALSPAC_PE_CC_20240926.xlsx'. Note that column names for imaging-derived phenotype (IDPs) may differ in future data releases. See spreadsheet for column names as appear in the ALSPAC dictionary/search tool (https://variables.alspac.bris.ac.uk).
+A desicription of the ALSPAC variables used for the current analyses can be found in the following Excel spreadsheet: 'Variables_Info_ALSPAC_PE_CC_20240926.xlsx'. Note that column names for imaging-derived phenotype (IDPs) may differ in future data releases. See spreadsheet for column names as appear in the ALSPAC data disctionary/variable search tool (https://variables.alspac.bris.ac.uk).
 
 ### Step 2. Brain age prediction using the ENIGMA Brain Age model
 
@@ -20,3 +20,6 @@ a. For guidance on brain age prediction using the the CentileBrain model, please
 ### Step 4. Statistical analyses
 
 The R code used for statistical analyses (incl. sample discriptives and data visualisation) can be found in the relevant script: '3_ALSPAC_PE_BA_Stats_CC_04092024.R'. Scripts for producing correlations between brain age and FreeSurfer measure (feature imprtortance) will be added soon. 
+
+### References
+TBA
