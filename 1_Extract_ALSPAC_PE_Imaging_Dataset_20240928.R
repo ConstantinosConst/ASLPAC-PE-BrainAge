@@ -1,6 +1,6 @@
 ###### Project: Exploring associations between psychotic experiences and structural brain age: a population-based study in late adolescence ######
 ###### Script 1: Extraction of the ALSPAC-PE imaging sub-sample from the ALSPAC dataset ######
-###### Description: Selection participants of the original ALSPAC-PE imaging sub-study along with variables of interest from the ALSPAC core dataset ######
+###### Description: Selects participants of the original ALSPAC-PE imaging sub-study along with variables of interest from the wider ALSPAC cohort ######
 ###### Written by: Constantinos Constantinides ######
 ###### Last edited: 28/09/2024 ######
 
