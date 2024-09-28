@@ -3,11 +3,11 @@ This repository provides code/scripts for secondary data analyses as reported in
 
 ### Step 1. Sample selection 
 
-The following R script was used to extract the ALSPAC-PE imaging subsample and variables of interest from the core ALSPAC dataset: 
+The following R script was used to extract the origng ALSPAC-PE imaging sample (and variables of interest) from the wider ALSPAC cohort: 
 
 '1_Extract_ALSPAC_PE_Imaging_Dataset_20240928'
 
-A desicription of the ALSPAC variables used for the current analyses can be found in the following Excel spreadsheet: 'Variables_Info_ALSPAC_PE_CC_20240926.xlsx'. Note that column names for imaging-derived phenotype (IDPs) may differ in future data releases. See spreadsheet for column names as appear in the ALSPAC data disctionary/variable search tool (https://variables.alspac.bris.ac.uk).
+A desicription of the ALSPAC variables used for the current analyses can be found in the following Excel spreadsheet: 'Variables_Info_ALSPAC_PE_CC_20240926.xlsx'. Note that column names for imaging-derived phenotype (IDPs) may differ in future data releases. See spreadsheet for column names as they currently appear in the ALSPAC data disctionary/variable search tool (https://variables.alspac.bris.ac.uk). 
 
 ### Step 2. Brain age prediction using the ENIGMA Brain Age model
 
