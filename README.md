@@ -22,12 +22,18 @@ Imaging derived-phenotypes (IDPs) were previously derived from sMRI/T1-weighted 
 The following R scripts were used sequencically to prepare the model input files for the ALSPAC-PE imaging sample:
 
 (2a) '2a_ENIGMA_Input_Prep_Step_2a_20240920.R' 
+
 (2b) '2b_ENIGMA_Input_Prep_Step_2b_20240928.R'
+
 Plus two additional scripts that are loaded by script 2b as 'functions':
 'prepare.files.R'
 'get.means.R'
 
-After running script 2a and 2b, the generated input files (males_raw.csv/females.raw.csv) should uploaded on the PHOTONAI platform for brain age prediction: https://photon-ai.com/enigma_brainage. Once you are on the platform, make sure that you click on the correct sex group (males/females) before uploading the corresponding input file. 
+After running script 2a and 2b, the generated input files (males_raw.csv/females.raw.csv) should uploaded on the PHOTONAI platform to get predictions: 
+
+https://photon-ai.com/enigma_brainage
+
+Once you are on the platform, make sure that you click on the correct sex group (males/females) before uploading the corresponding input file. 
 
 The downloaded output files should be renamed to 'males_raw_out' and 'females_raw_out' for males and females respectively. 
 
