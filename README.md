@@ -16,7 +16,7 @@ A desicription of the ALSPAC variables used for the current analyses can be foun
 
 Imaging derived-phenotypes (IDPs) were previously derived from sMRI/T1-weighted scans (Sharp et al., 2020). 
 
-### Step 2. Brain age prediction using the ENIGMA Brain Age model (Han et al, 2020) 
+### Step 2. Brain age prediction using the ENIGMA Brain Age model (Han et al., 2020) 
 (NB. You may skip this step if you want to use the CentileBrain model only)
 
 The following R scripts were used sequencically to prepare the model input files for the ALSPAC-PE imaging sample:
