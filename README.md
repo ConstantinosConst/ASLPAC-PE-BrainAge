@@ -75,4 +75,5 @@ Han, L. K. M., Dinga, R., Hahn, T., Ching, C. R. K., Eyler, L. T., Aftanas, L., 
 
 Sharp, T. H., McBride, N. S., Howell, A. E., Evans, C. J., Jones, D. K., Perry, G., Dimitriadis, S. I., Lancaster, T. M., Zuccolo, L., Relton, C., Matthews, S. M., Breeze, T., David, A. S., Drakesmith, M., Linden, D. E. J., Paus, T., & Walton, E. (2020). Population neuroimaging: generation of a comprehensive data resource within the ALSPAC pregnancy and birth cohort. Wellcome open research, 5, 203. https://doi.org/10.12688/wellcomeopenres.16060.
 
+Yu, Y., Cui, H. Q., Haas, S. S., New, F., Sanford, N., Yu, K., Zhan, D., Yang, G., Gao, J. H., Wei, D., Qiu, J., Banaj, N., Boomsma, D. I., Breier, A., Brodaty, H., Buckner, R. L., Buitelaar, J. K., Cannon, D. M., Caseras, X., Clark, V. P., … ENIGMA‐Lifespan Working Group (2024). Brain-age prediction: Systematic evaluation of site effects, and sample age range and size. Human brain mapping, 45(10), e26768. https://doi.org/10.1002/hbm.26768
 
