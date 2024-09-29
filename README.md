@@ -25,7 +25,7 @@ The following R scripts were used sequencically to prepare the model input files
 
 (2b) '2b_ENIGMA_Input_Prep_Step_2b_20240928.R'
 
-Plus two additional scripts that are loaded by script 2b as 'functions':
+Plus two additional scripts that are loaded by script 2b as functions:
 'prepare.files.R',
 'get.means.R'
 
