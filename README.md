@@ -67,7 +67,15 @@ The two ouput datasets named as 'ALSPAC_PE_BA_CB.RData' and 'ALSPAC_PE_BA_CB_FI.
 
 ### Step 4. Statistical analyses
 
-The R code used for statistical analyses (incl. sample discriptives and data visualisation) can be found in the relevant script: '3_ALSPAC_PE_BA_Stats_CC_04092024.R'. 
+The following scripts were used for data wrangling and statistical analyses of the association between PEs and brain-PAD: 
+
+(4a) '4a_ALSPAC_PE_BA_data_tranform_and_cleaning_28092024.R' - Recodes/transforms original variables and removes particpants with failed image QC
+
+(4b) '4b_ALSPAC_PE_BA_data_analysis_28092024.R' - generates sample descriptives (including model pefromance for the final sample) and statistical ouput for assocation between PEs and brain-PAD
+
+(4c) '4c_ALSPAC_PE_BA_Feature_Correlations_28092024.R' - generates tables with correlation coeffcients for each IDP (input feature) and brain-predicted age to evaluate feature contribution in brain age prediction
+
+-End of workflow-
 
 ### References
 
