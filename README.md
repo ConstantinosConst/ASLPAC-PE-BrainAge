@@ -6,7 +6,7 @@ Constantinides, C., Caramaschi, D., Zammit, S., Freeman, T. P., &amp; Walton, E.
 
 Here we used data from the ALSPAC-Psychotic Experiences (PE) imaging study as described previously (see data note by Sharp et al., 2020). 
 
-### Step 1. Sample selection (including variables of interest)
+### Step 1. Sample and variable selection
 
 The following R script was used to extract the original ALSPAC-PE imaging sample (and variables of interest) from the wider ALSPAC birth cohort: 
 
