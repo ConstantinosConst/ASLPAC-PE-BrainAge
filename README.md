@@ -29,7 +29,7 @@ Plus two additional scripts that are loaded by script 2b as functions:
 'prepare.files.R',
 'get.means.R'.
 
-After running script 2a and 2b, the generated input files (males_raw.csv/females.raw.csv) should uploaded on the PHOTONAI platform to get predictions: 
+After running script 2a and 2b, the generated input files (males_raw.csv/females.raw.csv) should be uploaded on the PHOTONAI platform to get predictions: 
 
 https://photon-ai.com/enigma_brainage
 
