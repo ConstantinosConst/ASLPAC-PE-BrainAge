@@ -27,7 +27,7 @@ The following R scripts were used sequencically to prepare the model input files
 
 Plus two additional scripts that are loaded by script 2b as functions:
 'prepare.files.R',
-'get.means.R'
+'get.means.R'.
 
 After running script 2a and 2b, the generated input files (males_raw.csv/females.raw.csv) should uploaded on the PHOTONAI platform to get predictions: 
 
@@ -36,10 +36,11 @@ https://photon-ai.com/enigma_brainage
 Once you are on the platform, make sure that you click on the correct sex group (males/females) before uploading the corresponding input file. The downloaded output files should be renamed to 'males_raw_out' and 'females_raw_out' for males and females respectively. 
 
 Finally, the following script was run to generate model performance metrics/plots for the current sample and to prepare dataset for downstream statistical analyses (step 4):
+
 (2c) '2c_ENIGMA_Output_Prep_Step_2c_20240928.R'
-Plus two additional scripts that loaded by script 2c as 'functions': 
-'model.fits.brainAge.R'
-'model.fits.brainAge.PE.R'
+
+Plus two additional scripts that loaded by script 2c as functions: 'model.fits.brainAge.R', 
+'model.fits.brainAge.PE.R'.
 
 ### Step 3. Brain age prediction using the CentileBrain Brain Age model
 
@@ -51,4 +52,8 @@ The R code used for statistical analyses (incl. sample discriptives and data vis
 
 ### References
 
+Han, L. K. M., Dinga, R., Hahn, T., Ching, C. R. K., Eyler, L. T., Aftanas, L., Aghajani, M., Aleman, A., Baune, B. T., Berger, K., Brak, I., Filho, G. B., Carballedo, A., Connolly, C. G., Couvy-Duchesne, B., Cullen, K. R., Dannlowski, U., Davey, C. G., Dima, D., Duran, F. L. S., … Schmaal, L. (2021). Brain aging in major depressive disorder: results from the ENIGMA major depressive disorder working group. Molecular psychiatry, 26(9), 5124–5139. https://doi.org/10.1038/s41380-020-0754-0
+
 Sharp, T. H., McBride, N. S., Howell, A. E., Evans, C. J., Jones, D. K., Perry, G., Dimitriadis, S. I., Lancaster, T. M., Zuccolo, L., Relton, C., Matthews, S. M., Breeze, T., David, A. S., Drakesmith, M., Linden, D. E. J., Paus, T., & Walton, E. (2020). Population neuroimaging: generation of a comprehensive data resource within the ALSPAC pregnancy and birth cohort. Wellcome open research, 5, 203. https://doi.org/10.12688/wellcomeopenres.16060.
+
+
