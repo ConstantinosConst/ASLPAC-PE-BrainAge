@@ -33,9 +33,7 @@ After running script 2a and 2b, the generated input files (males_raw.csv/females
 
 https://photon-ai.com/enigma_brainage
 
-Once you are on the platform, make sure that you click on the correct sex group (males/females) before uploading the corresponding input file. 
-
-The downloaded output files should be renamed to 'males_raw_out' and 'females_raw_out' for males and females respectively. 
+Once you are on the platform, make sure that you click on the correct sex group (males/females) before uploading the corresponding input file. The downloaded output files should be renamed to 'males_raw_out' and 'females_raw_out' for males and females respectively. 
 
 Finally, the following script was run to generate model performance metrics/plots for the current sample and to prepare dataset for downstream statistical analyses (step 4):
 (2c) '2c_ENIGMA_Output_Prep_Step_2c_20240928.R'
