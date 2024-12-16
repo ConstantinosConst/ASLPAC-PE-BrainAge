@@ -1,8 +1,8 @@
 # ASLPAC-PE-BrainAge analyses
 
-This repository provides code/scripts for secondary data analyses as reported in the following (draft) manuscript: 
+This repository provides code/scripts for secondary data analyses as reported in the following pre-print: 
 
-Constantinides, C., Caramaschi, D., Zammit, S., Freeman, T. P., &amp; Walton, E. (2024). Exploring associations between psychotic experiences and structural brain age: a population-based study in late adolescence [WORKING PAPER]
+Constantinides, C., Caramaschi, D., Zammit, S., Freeman, T. P., & Walton, E. (2024). Exploring associations between psychotic experiences and structural brain age: a population-based study in late adolescence. medRxiv : the preprint server for health sciences, 2024.10.07.24314890. https://doi.org/10.1101/2024.10.07.24314890
 
 Here we used data from the ALSPAC-Psychotic Experiences (PE) imaging study as described previously (see data note by Sharp et al., 2020). 
 
