@@ -2,7 +2,7 @@
 # Script 4b: Data visualization and statistical analyses - step 4b
 # Description: Generates descriptives, plots, and results from multiple regression analyses to populate the manuscript
 # Written by: Constantinos Constaninides
-# Written/last update on: 28/09/2024
+# Written/last update on: 16/12/2024
 
 # Load relevant packages
 library (ggplot2)
@@ -31,7 +31,7 @@ data %>%
                   all_continuous() ~ c(2,2))
   ) %>% 
   add_n() %>% # add column with total number of non-missing observations
-  add_p(pvalue_fun = label_style_pvalue(digits = 2)) %>% # test for a difference between groups
+  add_p(all_continuous() ~ "t.test", pvalue_fun = ~style_sigfig(., digits = 4)) %>% # test for a difference between groups
   bold_p
 
 ## For sum of PE per participant, get median (Q1, Q3) (table 1)
@@ -46,13 +46,13 @@ data %>%
     by = PE_4Level,
     statistic = all_continuous() ~ "{mean} ({sd})",
     digits = list(all_categorical() ~ c(0, 2),
-                  all_continuous() ~ c(2))
+                  all_continuous() ~ c(2,2))
   ) %>% 
   add_n() %>% # add column with total number of non-missing observations
-  add_p(pvalue_fun = label_style_pvalue(digits = 2)) %>% # test for a difference between groups
+  add_p(all_continuous() ~ "aov", pvalue_fun = ~style_sigfig(., digits = 4)) %>% # test for a difference between groups
   bold_p
 
-## For sum of PEs per participant, get median (Q1, Q3) and test-difference across subgroups (table 1)
+## For sum of PEs per participant, get median (Q1, Q3) and test difference across subgroups (table 1)
 ## Suspected PE
 data_SuspPE <- data[which(data$PE_4Level == 1),]
 summary(data_SuspPE$PE_Sum_NASF)
@@ -67,7 +67,8 @@ kruskal.test(PE_Sum_NASF ~ PE_4Level, data = data_PE)
 
 
 # Step 4. Assess model generalization performance and age-related bias in brain age prediction in the current sample
-# Plot predicted age for each brain age model and with respect to sex (Figure 1A)
+
+## Plot predicted age for each brain age model and with respect to sex (Figure 1A)
 colnames(data)
 data_2 <- data %>% select(SubjID, Sex, Age, predAge_ENG, predAge_CB)
 data_2$Age_type <- ""
@@ -176,7 +177,6 @@ cor(data_F_PE$Age,data_F_PE$predAge_ENG)
 cor(data_F_PE$Age,data_F_PE$predAge_CB)
 caret::R2(data_F_PE$Age,data_F_PE$predAge_ENG)
 caret::R2(data_F_PE$Age,data_F_PE$predAge_CB)
-
 
 
 # Plot brain-predicted age versus chronological age
